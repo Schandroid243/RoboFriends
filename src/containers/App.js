@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import CardList from './CardList';
+import CardList from '../components/CardList';
 // import { robots } from './robot';
-import Searchbox from './Searchbox';
+import Searchbox from '../components/Searchbox';
 import './App.css';
 import axios from 'axios';
-import Scroll from './Scroll';
+import Scroll from '../components/Scroll';
 
 const App = () => {
     const [robots, setRobots] = useState([]);
